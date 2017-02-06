@@ -1,0 +1,103 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: #ecf0f1;
+}
+
+html {
+     height: 100%;
+}
+
+div{
+    border: dotted 1px coral;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.main-container {
+    max-width: 800px;
+}
+
+.title-label{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.title-hr{
+
+    border-color: #34495e;
+    border-style: solid none;
+    border-width: 2px 0;
+    padding: 0;
+    margin-top: 5px; margin-bottom: 1px; margin-left: 0;
+    width: 65%;
+}
+
+.div-chart{
+    margin: 0 0 0 0;
+    width: 370px; height: 370px;
+}
+
+.div-header{
+    background: #34495e;
+    color: #f1c40f;
+    margin: 5px 5px 5px 5px;
+    padding: 6px 20px 6px 20px;
+    font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif ;
+    font-weight: bold;
+    border-radius:  6px 6px 0 0;
+    border: none;
+}
+
+.div-rounded{
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 0 0 6px 6px;
+    border: none;
+}
+
+.div-entries-component{
+    background: #bdc3c7;
+    display: block;
+}
+
+.div-entry{
+    border: none;
+    margin: 0;
+}
+
+.div-right-entry{
+    background: #286090;
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #46b8da;
+    border-radius: 0 10px 10px 0;
+    border: none;
+
+    margin: 5px 5px 5px 5px;
+    padding: 8px;
+}
+
+.div-right-entry:hover{
+    background: #2c3e50;
+    cursor: pointer;
+}
+
+.div-left-entry{
+    background: #286090;
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif ;
+    font-weight: bold;
+    color: #46b8da;
+    border-radius: 10px 0 0 10px;
+    border: none;
+
+    margin: 5px 5px 5px 5px;
+    padding: 8px;
+}
+
+
